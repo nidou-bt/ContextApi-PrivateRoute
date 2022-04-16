@@ -6,7 +6,7 @@ import UserProfile from './views/UserProfile';
 import { UserContext } from './contexts/UserContext';
 
 function App() {
-  const { isLoggedIn, userData, logout } = useContext(UserContext);
+  const { isLoggedIn } = useContext(UserContext);
 
   return (
     <Routes>
